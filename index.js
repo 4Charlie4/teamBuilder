@@ -1,3 +1,3 @@
 const Prompt = require("./lib/Prompt");
 
-new Prompt().getManager();
+new Prompt().getManager().then(getTeam());
