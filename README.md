@@ -3,6 +3,7 @@
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
+  - [Demonstration](#demonstration)
   - [Contact](#contact)
     - [Github: 4Charlie4](#github-4charlie4)
     - [Email: charlie4dev4@gmail.com](#email-charlie4dev4gmailcom)
@@ -16,6 +17,9 @@ Make sure you have nodejs installed. You will need the inquirer package and jest
 
 ## Usage
 This project will generate a website displaying your team members and their positions with some unique information to each one. 
+
+## Demonstration
+[Video](https://watch.screencastify.com/v/b7kN6R0gNFfcMwJ1PP3p)
 
 ## Contact
 
