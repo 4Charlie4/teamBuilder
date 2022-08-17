@@ -61,12 +61,14 @@ body {
 }
 
 .email {
-    height: 30px;
+    height: 35px;
     border-bottom: 1px solid;
+    color: #33007b;
 }
 
  a {
     text-decoration: none;
+    color: #33007b;
 }
 
 .place {
