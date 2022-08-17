@@ -3,7 +3,8 @@ const fs = require("fs");
 
 function generateHTML(teamData) {
   console.log(teamData);
-  const generatePage = `<!DOCTYPE html>
+  const generatePage = `
+  <!DOCTYPE html>
   <html lang="en">
     <head>
       <meta charset="UTF-8" />
@@ -18,9 +19,9 @@ function generateHTML(teamData) {
       </header>
       <section class="flexParent">
         <!--Placeholder, will generate dynamically-->
-        
         ${teamData.map((employee) => {
-          return `<div class="box">
+          return `
+          <div class="box">
             <div class="heading">
                 <h2>${employee.name}</br><span>${employee.getRole()}</span></h2>
             </div>
@@ -31,13 +32,15 @@ function generateHTML(teamData) {
           }</a></div>
             ${employee.getSpecialCall()}
             </div>
-          </div>`;
+          </div>
+          `;
         })}
   
       
       </section>
     </body>
-  </html>`;
+  </html>
+  `;
 
   fs.writeFile("./dist/index.html", generatePage, (err) => {
     if (err) {
